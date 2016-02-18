@@ -1,2 +1,8 @@
 // Import Bootstrap for Sass
-@import "vendors/bootstrap/bootstrap"
+@import "vendors/bootstrap/bootstrap";
+
+// Import Custom Theme
+@import "themes/header";
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);

@@ -1,0 +1,46 @@
+body {
+	color: #666;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 50px;
+}
+.navbar {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0px;
+}
+
+.navbar-custom {
+    background: #fff;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 46px;
+	font-weight: 200;
+}
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	font-weight: 300;
+}
+h3 {
+	font-size: 38px;
+	font-weight: 100;
+}
+h4 {
+	font-size: 28px;
+	font-weight: 400;
+}
+.container-section {
+    border-top: 1px solid #ddd;
+}
+.container-section-grey {
+	@extend .container-section;
+	background: #f3f5f7;
+}
+.section {
+	@extend .container;
+	padding: 100px 0px;
+}
+.row.inline-set {
+	margin-top: 80px;
+}

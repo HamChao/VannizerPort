@@ -5,6 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1510,24 +1512,24 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container {
+.container, .section {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
-  .container:before, .container:after {
+  .container:before, .section:before, .container:after, .section:after {
     content: " ";
     display: table; }
-  .container:after {
+  .container:after, .section:after {
     clear: both; }
   @media (min-width: 768px) {
-    .container {
+    .container, .section {
       width: 750px; } }
   @media (min-width: 992px) {
-    .container {
+    .container, .section {
       width: 970px; } }
   @media (min-width: 1200px) {
-    .container {
+    .container, .section {
       width: 1170px; } }
 
 .container-fluid {
@@ -3740,15 +3742,17 @@ tbody.collapse.in {
     .navbar-fixed-bottom .navbar-collapse {
       max-height: 200px; } }
 
-.container > .navbar-header,
+.container > .navbar-header, .section > .navbar-header,
 .container > .navbar-collapse,
+.section > .navbar-collapse,
 .container-fluid > .navbar-header,
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px; }
   @media (min-width: 768px) {
-    .container > .navbar-header,
+    .container > .navbar-header, .section > .navbar-header,
     .container > .navbar-collapse,
+    .section > .navbar-collapse,
     .container-fluid > .navbar-header,
     .container-fluid > .navbar-collapse {
       margin-right: 0;
@@ -3792,7 +3796,7 @@ tbody.collapse.in {
   .navbar-brand > img {
     display: block; }
   @media (min-width: 768px) {
-    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    .navbar > .container .navbar-brand, .navbar > .section .navbar-brand, .navbar > .container-fluid .navbar-brand {
       margin-left: -15px; } }
 
 .navbar-toggle {
@@ -4308,17 +4312,17 @@ a.badge:hover, a.badge:focus {
     font-weight: 200; }
   .jumbotron > hr {
     border-top-color: #d5d5d5; }
-  .container .jumbotron, .container-fluid .jumbotron {
+  .container .jumbotron, .section .jumbotron, .container-fluid .jumbotron {
     border-radius: 6px;
     padding-left: 15px;
     padding-right: 15px; }
-  .jumbotron .container {
+  .jumbotron .container, .jumbotron .section {
     max-width: 100%; }
   @media screen and (min-width: 768px) {
     .jumbotron {
       padding-top: 48px;
       padding-bottom: 48px; }
-      .container .jumbotron, .container-fluid .jumbotron {
+      .container .jumbotron, .section .jumbotron, .container-fluid .jumbotron {
         padding-left: 60px;
         padding-right: 60px; }
       .jumbotron h1,
@@ -5809,5 +5813,46 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+body {
+  color: #666;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 50px; }
+
+.navbar {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0px; }
+
+.navbar-custom {
+  background: #fff; }
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 46px;
+  font-weight: 200; }
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 300; }
+
+h3 {
+  font-size: 38px;
+  font-weight: 100; }
+
+h4 {
+  font-size: 28px;
+  font-weight: 400; }
+
+.container-section, .container-section-grey {
+  border-top: 1px solid #ddd; }
+
+.container-section-grey {
+  background: #f3f5f7; }
+
+.section {
+  padding: 100px 0px; }
+
+.row.inline-set {
+  margin-top: 80px; }
 
 /*# sourceMappingURL=main.css.map */
