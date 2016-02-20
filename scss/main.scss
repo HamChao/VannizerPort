@@ -1,9 +1,16 @@
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+// Configs
+@import "frameworks/mixins";
+@import "configs/colors";
+
 // Import Bootstrap for Sass
 @import "vendors/bootstrap/bootstrap";
 
-// Import Custom Theme
-@import "frameworks/mixins";
-@import "themes/header";
+@import "frameworks/custom-buttons";
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:200,300);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+// Import Custom Theme
+@import "themes/header";

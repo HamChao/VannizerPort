@@ -1,17 +1,28 @@
 body {
-	color: #666;
+	color: $primary-text-color;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding-top: 50px;
 }
 .navbar {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid $border-color;
     margin-bottom: 0px;
+
+	&.navbar-custom {
+	    background: #fff;
+	}
 }
 
-.navbar-custom {
-    background: #fff;
+a {
+	&:link, &:visited {
+		color: $primary-text-color;
+	}
+	&:hover {
+		color: $primary-color;
+	}
+	&:active {
+		color: $secondary-color;
+	}
 }
-
 h1 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 46px;
@@ -41,22 +52,29 @@ h4 {
 	font-weight: 400;
 	margin-bottom: 30px;
 }
-.container-section {
-    border-top: 1px solid #ddd;
+
+// Layout
+.section {
+    border-top: 1px solid $border-color;
     width: 100%;
 	overflow: hidden;
 }
-.container-section-top {
-	@extend .container-section;
+.section-top {
+	@extend .section;
 	border-top: 0px;
 }
-.container-section-gray {
-	@extend .container-section;
+.section-gray {
+	@extend .section;
 	background: #f3f5f7;
 }
-.section {
-	@extend .container;
-	padding: 100px 0px;
+.wrapper {
+	padding: 100px 20px;
+	@media (min-width: 1200px) {
+		&.right {
+			padding-left: 80px;
+			border-left: 1px solid $border-color;
+		} 
+	}
 }
 .row.inline-set {
 	margin-top: 80px;
@@ -71,3 +89,12 @@ h4 {
 		}
 	}
 }
+
+// Text
+.primary-color {
+	color: $primary-color;
+}
+.secondary-color {
+	color: $secondary-color;
+}
+
