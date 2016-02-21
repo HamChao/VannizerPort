@@ -5959,9 +5959,6 @@ h4 {
       padding-left: 80px;
       border-left: 1px solid #e7e7e7; } }
 
-.row.inline-set {
-  margin-top: 80px; }
-
 .cover1 {
   background: #000; }
   .cover1 img {
@@ -5983,8 +5980,12 @@ h4 {
 .secondary-color {
   color: #288feb; }
 
+.skill-wrapper {
+  margin-top: 140px; }
+
 .skill-icon {
-  width: 150px; }
+  width: 150px;
+  margin-top: 70px; }
 
 .home-title {
   text-align: center;

@@ -77,9 +77,6 @@ h4 {
 		} 
 	}
 }
-.row.inline-set {
-	margin-top: 80px;
-}
 .cover1 {
 	background: #000;
     img {
@@ -104,14 +101,13 @@ h4 {
 	color: $secondary-color;
 }
 
-.skill-icon {
-	// box-shadow: 10px 10px 5px #888888;
-	width: 150px;
+.skill-wrapper {
+	margin-top: 140px;
 }
-
-
-
-
+.skill-icon {
+	width: 150px;
+	margin-top: 70px;
+}
 
 
 .home-title {
