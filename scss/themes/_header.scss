@@ -42,6 +42,7 @@ h2 {
 	font-size: 28px;
 	font-weight: 300;
 	line-height: 39px;
+	margin-bottom: 30px;
 }
 h3 {
 	font-size: 38px;
@@ -87,6 +88,11 @@ h4 {
 		&:hover {
 			opacity: 0.5;
 		}
+	}
+}
+@media (min-width: 1200px) {
+	.web-no-padding {
+		padding: 0px;
 	}
 }
 
