@@ -50,7 +50,7 @@ h3 {
 }
 h4 {
 	font-size: 28px;
-	font-weight: 400;
+	font-weight: 300;
 	margin-bottom: 30px;
 }
 
@@ -107,4 +107,34 @@ h4 {
 .skill-icon {
 	// box-shadow: 10px 10px 5px #888888;
 	width: 150px;
+}
+
+
+
+
+
+
+.home-title {
+	text-align: center;
+	overflow: hidden;
+	h3 {
+		display: inline-block;
+		padding: 0px 40px;
+		position: relative;
+	}
+	h3:before {
+		right: 100%;
+
+	}
+	h3:after {
+		left: 100%;
+	}
+	h3:before, h3:after {
+		position: absolute;
+	    top: 50%;
+	    width: 700px;
+	    height: 1px;
+	    content: "";
+	    background-color: #ccc;
+	}
 }

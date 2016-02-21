@@ -5938,7 +5938,7 @@ h3 {
 
 h4 {
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 30px; }
 
 .section, .section-top, .section-gray {
@@ -5985,5 +5985,24 @@ h4 {
 
 .skill-icon {
   width: 150px; }
+
+.home-title {
+  text-align: center;
+  overflow: hidden; }
+  .home-title h3 {
+    display: inline-block;
+    padding: 0px 40px;
+    position: relative; }
+  .home-title h3:before {
+    right: 100%; }
+  .home-title h3:after {
+    left: 100%; }
+  .home-title h3:before, .home-title h3:after {
+    position: absolute;
+    top: 50%;
+    width: 700px;
+    height: 1px;
+    content: "";
+    background-color: #ccc; }
 
 /*# sourceMappingURL=main.css.map */
