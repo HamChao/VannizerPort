@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 283 327.7" enable-background="new 0 0 283 327.7" xml:space="preserve">
+<polygon fill="none" stroke="#1F87E7" stroke-width="7" stroke-miterlimit="10" points="14.5,90.9 141,17.9 267.5,90.9 267.5,236.8 
+	141,309.8 14.5,236.8 "/>
+<polygon fill="none" stroke="#DDDDDD" stroke-miterlimit="10" points="0.5,82.2 141.5,0.6 282.5,82.2 282.5,245.5 141.5,327.1 
+	0.5,245.5 "/>
+<g>
+	<path fill="#1F87E7" d="M197.2,118.8H85.5c-0.9,0-1.7-0.5-2.1-1.3c-0.4-0.8-0.3-1.8,0.3-2.5l26.8-31.8c0.4-0.5,1.1-0.8,1.8-0.8
+		h58.2c0.7,0,1.3,0.3,1.8,0.8L199,115c0.6,0.7,0.7,1.7,0.3,2.5C198.9,118.3,198.1,118.8,197.2,118.8z M90.5,114.2h101.7l-22.9-27.1
+		h-56L90.5,114.2z"/>
+	<polygon fill="#1F87E7" points="141.3,186.5 83.7,118 87.2,115 141.3,179.3 195.4,115 199,118 	"/>
+	<path fill="#1F87E7" d="M141.3,185.2L141.3,185.2c-1,0-1.9-0.6-2.2-1.6l-23.4-66.4c-0.3-0.7-0.1-1.5,0.3-2.2l23.4-31.8
+		c0.9-1.2,2.9-1.2,3.7,0l23.4,31.8c0.5,0.6,0.6,1.4,0.3,2.2l-23.4,66.4C143.2,184.6,142.3,185.2,141.3,185.2z M120.5,116.9l20.8,59
+		l20.8-59l-20.8-28.2L120.5,116.9z"/>
+	
+		<rect x="99" y="98.3" transform="matrix(-0.1759 -0.9844 0.9844 -0.1759 36.2981 231.6206)" fill="#1F87E7" width="32.3" height="4.7"/>
+	
+		<rect x="165.2" y="84.5" transform="matrix(-0.9844 -0.176 0.176 -0.9844 314.8238 229.1546)" fill="#1F87E7" width="4.7" height="32.3"/>
+	<text transform="matrix(1 0 0 1 82 233.5087)" fill="#1F87E7" font-family="'OpenSans'" font-size="43.4906" letter-spacing="-1">RSpec</text>
+</g>
+</svg>
