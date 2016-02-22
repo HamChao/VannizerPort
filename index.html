@@ -28,7 +28,7 @@
 	        	<a href="#">Articles</a>
         	</li>
 	        <li>
-	        	<a id="link" href="#">Contact</a>
+	        	<a class="link-to-contact" href="#">Contact</a>
 	        </li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
@@ -50,7 +50,7 @@
 						<br>
 						The Coolest Technology.
 					</h2>
-					<button id="link" class="btn-custom color-1 seperate">CONTACT</button>
+					<button class="btn-custom color-1 seperate link-to-contact">CONTACT</button>
 				</div>
 				<div class="col-md-7">
 					<img src="images/HeadComponent.svg" alt="" width="100%">
@@ -245,10 +245,10 @@
 	<script>
 		$("div.navbar-fixed-top").autoHidingNavbar();
 
-		$("#link").click(function() {
+		$(".link-to-contact").click(function() {
 		    $('html, body').animate({
 		        scrollTop: $("#contact").offset().top
-		    }, 2000);
+		    }, 1200);
 		});
 	</script>
 </body>
