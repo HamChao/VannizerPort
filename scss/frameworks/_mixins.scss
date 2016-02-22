@@ -7,11 +7,11 @@
 }
 
 @mixin transition-all($times) {
-  -webkit-transition: all $times linear;
-     -moz-transition: all $times linear;
-      -ms-transition: all $times linear;
-       -o-transition: all $times linear;
-          transition: all $times linear;
+  -webkit-transition: all $times ease-in-out;
+     -moz-transition: all $times ease-in-out;
+      -ms-transition: all $times ease-in-out;
+       -o-transition: all $times ease-in-out;
+          transition: all $times ease-in-out;
 }
 
 @mixin border-radius($size) {

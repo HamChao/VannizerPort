@@ -1,18 +1,27 @@
+$navbar-height: 80px;
 body {
 	color: $primary-text-color;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	padding-top: 50px;
+	padding-top: $navbar-height;
+	@include transition-all(0.8s);
 }
-.navbar {
+.navbar.navbar-fixed-top.navbar-custom {
     border-bottom: 1px solid $border-color;
     margin-bottom: 0px;
-
-	&.navbar-custom {
-	    background: #fff;
-	}
+    background: #fff;
+    min-height: $navbar-height;
+    .container {
+    	margin-top: (($navbar-height - 50px) / 2px) * 1px;
+		a {
+			font-size: 20px;
+			font-weight: 300;
+			background: none;
+    	}
+    }
 }
-
 a {
+	background: none;
+	@include transition-all(0.2s);
 	&:link, &:visited {
 		color: $primary-text-color;
 	}
@@ -46,12 +55,17 @@ h2 {
 }
 h3 {
 	font-size: 38px;
-	font-weight: 100;
+	font-weight: 300;
+	margin-bottom: 30px;
 }
 h4 {
 	font-size: 28px;
 	font-weight: 300;
 	margin-bottom: 30px;
+}
+p {
+	font-size: 20px;
+	font-weight: 300;
 }
 
 // Layout
@@ -69,7 +83,8 @@ h4 {
 	background: #f3f5f7;
 }
 .wrapper {
-	padding: 100px 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	@media (min-width: 1200px) {
 		&.right {
 			padding-left: 80px;
@@ -81,15 +96,21 @@ h4 {
 	background: #000;
     img {
 		@include transition-all(0.2s);
-		height: 100%;
+		width: 100%;
 		&:hover {
 			opacity: 0.5;
 		}
 	}
 }
-@media (min-width: 1200px) {
-	.web-no-padding {
-		padding: 0px;
+.footer {
+	background: #2e3234;
+	overflow: hidden;
+	.wrapper {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	h2 {
+		color: #fff;
 	}
 }
 
@@ -106,7 +127,7 @@ h4 {
 }
 .skill-icon {
 	width: 150px;
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 
@@ -133,4 +154,10 @@ h4 {
 	    content: "";
 	    background-color: #ccc;
 	}
+}
+
+.responsive-icon {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	max-width: 700px;
 }

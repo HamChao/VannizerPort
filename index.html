@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
 	<link rel="stylesheet" href="stylesheets/main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div class="navbar navbar-custom navbar-fixed-top">
@@ -16,33 +18,17 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">Brand</a>
+	      <a class="navbar-brand primary-color" href="#">Vannizer</a>
 	    </div>
 		
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-	        <li>
-	        	<a href="#">Link</a>
-        	</li>
-	      </ul>
-	      <form class="navbar-form navbar-left" role="search">
-	        <div class="form-group">
-	          <input type="text" class="form-control" placeholder="Search">
-	        </div>
-	        <button type="submit" class="btn btn-default">Submit</button>
-	      </form>
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Link</a></li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="#">Action</a></li>
-	            <li><a href="#">Another action</a></li>
-	            <li><a href="#">Something else here</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Separated link</a></li>
-	          </ul>
+	        <li>
+	        	<a href="#">Articles</a>
+        	</li>
+	        <li>
+	        	<a id="link" href="#">Contact</a>
 	        </li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
@@ -51,9 +37,9 @@
 	<div class="section-top">
 		<div class="container wrapper">
 			<div class="row">
-				<div class="col-md-5 web-no-padding">
-					<h1>
-						<strong>Vannizer</strong> 
+				<div class="col-md-5">
+					<h1 class="secondary-color">
+						<strong class="primary-color">Vannizer</strong> 
 						<br>
 						Full Stack Developer, 
 						<br>
@@ -64,18 +50,33 @@
 						<br>
 						The Coolest Technology.
 					</h2>
-					<button class="btn-custom color-1 seperate">CONTACT</button>
+					<button id="link" class="btn-custom color-1 seperate">CONTACT</button>
 				</div>
-				<div class="col-md-7 web-no-padding">
+				<div class="col-md-7">
 					<img src="images/HeadComponent.svg" alt="" width="100%">
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="section-gray">
+	<div class=section>
+		<div class="container wrapper text-center">
+			<h3>
+				Responsive
+			</h3>
+			<!-- <p>One framework, every device.</p> -->
+			<img class="responsive-icon" src="images/responsive.svg" alt="">
+			<br>
+			<br>
+			<br>
+			<h4>
+				One framework, every device.
+			</h4>
+		</div>
+	</div>
+	<div class="section">
 		<div class="container wrapper">
 			<div>
-				<div class="home-title">
+				<div>
 					<h3 class="text-center">
 						Backend
 					</h3>
@@ -106,7 +107,7 @@
 			</div>
 			<div class="skill-wrapper">
 				<div class="row">
-					<div class="col-md-12 home-title">
+					<div class="col-md-12">
 						<h3 class="text-center">
 							Frontend
 						</h3>
@@ -138,7 +139,7 @@
 			</div>
 			<div class="skill-wrapper">
 				<div class="row">
-					<div class="col-md-12 home-title">
+					<div class="col-md-12">
 						<h3 class="text-center">
 							More
 						</h3>
@@ -160,38 +161,6 @@
 						<p>Behaviour Driven Development for Ruby. <br> Making TDD Productive and Fun. </p>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-	<div class="section">
-		<div class="container wrapper">
-			<div class="row">
-				<div class="col-md-6"></div>
-				<div class="col-md-6">
-					<h4 class="primary-color">
-						TDD (Test Driven Development)
-					</h4>
-					<p>
-						Good test gonna make good application. <br> Short cycle and always know what are you doing.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="section">
-		<div class="container wrapper">
-			<div class="row">
-				<div class="col-md-6">
-					<h4 class="primary-color">
-						SCRUM
-					</h4>
-					<p>
-						Meeting, Disucussing, Catach Up. Who don't like it?
-						<br>
-						You always know what should you do and head to the right way.
-					</p>
-				</div>
-				<div class="col-md-6"></div>
 			</div>
 		</div>
 	</div>
@@ -220,31 +189,67 @@
 		</div>
 	</div>	
 	<div class="section">
-		<a href="#">
-			<div class="cover1">
-				<img src="images/apple_pay_xlarge.jpg" alt="">
-			</div>
-		</a>
-	</div>
-	<div class="section">
 		<div class="container wrapper text-center">
 			<h3>
-				Freelance
+				Startup
 			</h3>
-			<p>
-				In sometimes I'll be a
-			</p>
-			<h4 class="primary-color">
-				Web Dev | Consultant
+			<h4>
+				We build our own product.
 			</h4>
 		</div>
 	</div>
-
+	<div class="section">
+		<a href="">
+			<div class="cover1">
+				<img src="images/mac.jpg" alt="">
+			</div>
+		</a>
+	</div>
+	<div class="section-gray">
+		<div class="container wrapper text-center">
+			<h3>
+				And ready to make some for you
+			</h3>
+		</div>
+	</div>
+	<div class="footer" id="contact">
+		<div class="container wrapper text-center">
+			<h2>
+				GET IN TOUCH
+			</h2>
+			<h4 class="secondary-color">
+				pallop.chao@gmail.com
+			</h4>
+ 			<div class="row">
+				<div class="col-md-4 text-center">
+					<a href="https://th.linkedin.com/in/pallop">
+						<i class="skill-icon fa fa-linkedin fa-5x"></i>
+					</a>
+				</div>
+				<div class="col-md-4 text-center">
+					<a href="https://github.com/HamChao">
+						<i class="skill-icon fa fa-github fa-5x"></i>
+					</a>
+				</div>
+				<div class="col-md-4 text-center">
+					<a href="http://steamcommunity.com/profiles/76561198061798873/">
+						<i class="skill-icon fa fa-steam-square fa-5x"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script src="js/jquery-1.12.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
 	<script>
-	  $("div.navbar-fixed-top").autoHidingNavbar();
+		$("div.navbar-fixed-top").autoHidingNavbar();
+
+		$("#link").click(function() {
+		    $('html, body').animate({
+		        scrollTop: $("#contact").offset().top
+		    }, 2000);
+		});
 	</script>
 </body>
 </html>
