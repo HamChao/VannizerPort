@@ -5912,9 +5912,12 @@ body {
   .navbar.navbar-fixed-top.navbar-custom .container {
     margin-top: 15px; }
     .navbar.navbar-fixed-top.navbar-custom .container a {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 300;
       background: none; }
+      .navbar.navbar-fixed-top.navbar-custom .container a.navbar-brand {
+        font-size: 22px;
+        font-weight: 400; }
 
 a {
   background: none;

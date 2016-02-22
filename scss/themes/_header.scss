@@ -13,9 +13,13 @@ body {
     .container {
     	margin-top: (($navbar-height - 50px) / 2px) * 1px;
 		a {
-			font-size: 20px;
+			font-size: 18px;
 			font-weight: 300;
 			background: none;
+			&.navbar-brand {
+				font-size: 22px;
+				font-weight: 400;
+			}
     	}
     }
 }
@@ -129,7 +133,6 @@ p {
 	width: 150px;
 	margin-top: 40px;
 }
-
 
 .home-title {
 	text-align: center;
