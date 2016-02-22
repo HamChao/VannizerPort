@@ -5917,7 +5917,11 @@ body {
       background: none; }
       .navbar.navbar-fixed-top.navbar-custom .container a.navbar-brand {
         font-size: 22px;
-        font-weight: 400; }
+        font-weight: 400;
+        color: #1F87E7; }
+
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #666; }
 
 a {
   background: none;
@@ -5985,6 +5989,8 @@ p {
     .wrapper.right {
       padding-left: 80px;
       border-left: 1px solid #e7e7e7; } }
+  .section-top .wrapper {
+    padding-top: 50px; }
 
 .cover1 {
   background: #000; }
