@@ -105,13 +105,28 @@ p {
 		padding-top: 50px;
 	}
 }
-.cover1 {
+.image-wrapper {
+	position: relative;
 	background: #000;
-    img {
+	img {
 		@include transition-all(0.2s);
 		width: 100%;
-		&:hover {
+	}
+	.image-text {
+		display: none;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 38px;
+		color: #fff;
+	}
+	&:hover {
+		img {
 			opacity: 0.5;
+		}
+		.image-text {
+			display: block;
 		}
 	}
 }

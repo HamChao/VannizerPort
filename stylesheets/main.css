@@ -5992,17 +5992,28 @@ p {
   .section-top .wrapper {
     padding-top: 50px; }
 
-.cover1 {
+.image-wrapper {
+  position: relative;
   background: #000; }
-  .cover1 img {
+  .image-wrapper img {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     width: 100%; }
-    .cover1 img:hover {
-      opacity: 0.5; }
+  .image-wrapper .image-text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    color: #fff; }
+  .image-wrapper:hover img {
+    opacity: 0.5; }
+  .image-wrapper:hover .image-text {
+    display: block; }
 
 .footer {
   background: #2e3234;
